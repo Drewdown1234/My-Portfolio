@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+    }
+    .experience, .education, .skills, .awards {
+      list-style: none;
+      padding-left: 0;
+    }
+    .experience li, .education li, .skills li, .awards li {
+      margin-bottom: 10px;
+    }
+    .experience h3, .education h3 {
+      margin-bottom: 5px;
+      font-size: 18px;
+    }
+    .experience p, .education p {
+      margin: 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+    #back-btn {
+      display: block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+    #back-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Resume</h1>
+    <p>Andrew Provost</p>
+    <p>Email: provostdrew1@gmail.com | Phone:661-513-6291</p>
+  </header>
+
+  <div class="container">
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
+      <ul class="education">
+        <li>
+          <h3>Brigham Young University</h3>
+          <p>Currently studying Finance</p>
+          <p>Graduation Date: May 2028</p>
+          <p>Relevant Coursework: Financial Accounting, Investment Analysis, Corporate Finance</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="work-experience">
+      <h2>Work Experience</h2>
+      <ul class="experience">
+        <li>
+          <h3>Collector/legal administrator - Law office of Joshua Provost</h3>
+          <p>May 2023 - August 2024</p>
+          <p>Responsibilities:</p>
+          <ul>
+            <li>Clerical work that processing of UCC-1 liens</li>
+            <li>Worked as a collector and began making cold-calls</li>
+            <li>Helped file out law suits under instruction from our lawyer</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Chick-Fil-A Shift Lead - Chick-Fil-A Valencia Town Centre</h3>
+          <p>January 2022 - May 2023</p>
+          <p>Responsibilities:</p>
+          <ul>
+            <li>Put teams together alligning with their skills</li>
+            <li>Helped with inventory and the overall storage of the location</li>
+            <li>Eventually began scheduling others hours and taking a more executive position</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>Programming Languages: HTML, CSS, JavaScript, Python</li>
+        <li>Customer service, along with the ability to read anyone in person or over the phone</li>
+        <li>Team-bonding, willing and able to work and succeed with a team</li>
+        <li>Hard working, working 45 hour weeks</li>
+        <li>Problem Solving & Algorithmic Thinking</li>
+      </ul>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards">
+      <h2>Awards & Honors</h2>
+      <ul class="awards">
+        <li>
+          <p><strong>Principal's Award and Honors scholar</strong> - 2022-2023</p>
+        </li>
+        <li>
+          <p><strong>2x Employee of the month</strong> - 2022-2023</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Additional Information -->
+    <section id="additional-info">
+      <h2>Additional Information</h2>
+      <p>Have lots of experience and expertise in the special needs field given I have an autistic brother which has helped me develop incredible patience and understanding.</p>
+    </section>
+
+    <!-- Back Button -->
+    <button id="back-btn" onclick="window.location.href='index.html';">Back to Home</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Andrew Provost. All rights reserved.</p>
+  </footer>
+</body>
+</html>
